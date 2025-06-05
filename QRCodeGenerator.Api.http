@@ -1,0 +1,6 @@
+@QRCodeGenerator.Api_HostAddress = http://localhost:5201
+
+GET {{QRCodeGenerator.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
