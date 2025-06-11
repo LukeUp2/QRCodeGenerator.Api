@@ -13,11 +13,6 @@ namespace QRCodeGenerator.Api.Controllers
     [Route("qrcode")]
     public class QRCodeController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
-        {
-            return Ok("Working :)");
-        }
 
         [HttpPost("generate")]
         public async Task<ActionResult> Generate(QRCodeGenerateRequest request, [FromServices] GenerateQRCodeUseCase useCase)
