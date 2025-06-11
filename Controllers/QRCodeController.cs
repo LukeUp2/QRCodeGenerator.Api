@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using QRCodeGenerator.Api.Requests;
 using QRCodeGenerator.Api.Response;
+using QRCodeGenerator.Api.UseCases.QRCode.Generate;
 
 namespace QRCodeGenerator.Api.Controllers
 {
@@ -18,13 +19,10 @@ namespace QRCodeGenerator.Api.Controllers
             return Ok("Working :)");
         }
 
-        [HttpGet("generate")]
-        public ActionResult Generate(QRCodeGenerateRequest request)
+        [HttpPost("generate")]
+        public async Task<ActionResult> Generate(QRCodeGenerateRequest request, [FromServices] GenerateQRCodeUseCase useCase)
         {
-            var response = new QRCodeGeneratedResponse
-            {
-                Url = "teste.com"
-            };
+            var response = await useCase.Execute(request);
 
             return Ok(response);
         }

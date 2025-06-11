@@ -8,5 +8,6 @@ namespace QRCodeGenerator.Api.Requests
     public class QRCodeGenerateRequest
     {
         public string Text { get; set; } = "";
+        public string Title { get; set; } = "";
     }
 }

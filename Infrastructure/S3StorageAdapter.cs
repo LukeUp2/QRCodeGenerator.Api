@@ -13,10 +13,10 @@ namespace QRCodeGenerator.Api.Infrastructure
     {
         private readonly IAmazonS3 _amazonS3;
         private readonly string _bucketName;
-        private readonly Amazon.RegionEndpoint region = Amazon.RegionEndpoint.USEast2;
+        private readonly string region = "us-east-2";
         public S3StorageAdapter(string accessKey, string secretKey, string bucketName)
         {
-            _amazonS3 = new AmazonS3Client(accessKey, secretKey, region);
+            _amazonS3 = new AmazonS3Client(accessKey, secretKey, Amazon.RegionEndpoint.USEast2);
 
             _bucketName = bucketName;
         }

@@ -31,3 +31,10 @@ C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\obj\Debug\net
 C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\obj\Debug\net9.0\QRCodeGenerator.Api.pdb
 C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\obj\Debug\net9.0\QRCodeGenerator.Api.genruntimeconfig.cache
 C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\obj\Debug\net9.0\ref\QRCodeGenerator.Api.dll
+C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\obj\Debug\net9.0\QRCodeGenerator.Api.sourcelink.json
+C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\bin\Debug\net9.0\AWSSDK.Core.dll
+C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\bin\Debug\net9.0\AWSSDK.S3.dll
+C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\joaos\Dev\C#_Projects\QRCodeGenerator\QRCodeGenerator.Api\bin\Debug\net9.0\QRCoder.dll
